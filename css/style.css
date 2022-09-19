@@ -254,10 +254,11 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
+color:var(--port-title-color);
 }
 .portfolio-text{
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--port-text-color);
 }
