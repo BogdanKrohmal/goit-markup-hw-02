@@ -28,9 +28,12 @@ body {
   --footer-address-link-color: #ffffff;
   --footer-addres-list-color: rgba(255, 255, 255, 0.6);
   --port-title-color: #212121;
-  --port-text-color: ##757575;
+  --port-text-color: #757575;
   --port-btn-color: #212121;
-  --port-item-bgr-color: #f5f5f5;
+  --port-bgr-color: #f5f5f5;
+  --port-btn-bgr-color:#F5F4FA;
+  --port-item-bgr-color:#ffffff;
+  
 }
 
 .visually-hidden {
@@ -208,6 +211,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .address-link {
   font-size: 14px;
   line-height: 1.71;
@@ -222,9 +226,14 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.address {
+  font-style: normal;
+}
 /* ----------portfolio---------- */
 
+.portfolio-main{
+  background-color: var(--port-bgr-color);
+}
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -233,12 +242,22 @@ body {
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background: var(--port-btn-color);
-}
-.portfolio {
-  background-color: var(--port-main-bgr-color);
+  color:var(--port-btn-color);
+  background-color: var(--port-btn-bgr-color);
 }
 .portfolio-item {
   background-color: var(--port-item-bgr-color);
+}
+.portfolio-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-text{
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
 }
